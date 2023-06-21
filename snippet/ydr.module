@@ -1,0 +1,12 @@
+#!云达人去广告
+
+DOMAIN,fplus.funshion.com,REJECT
+DOMAIN,ios.bugly.qq.com,REJECT
+DOMAIN,gd-stats.jpush.cn,REJECT
+DOMAIN,v2.gdt.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,net.rayjump.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,adservice.sigmob.cn,REJECT
