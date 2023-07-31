@@ -1,0 +1,11 @@
+#!url=https://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js/_end_/notability.sgmodule?type=qx-rewrite&target=shadowrocket-module
+#!name=notability解锁
+#!desc=notability
+
+[Script]
+
+notability_8 = type=http-response, pattern=^https?:\/\/notability\.com\/global, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% notability.com
