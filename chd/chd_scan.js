@@ -5,8 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/ykt\.chd\.edu\.cn\/server\/consume\/scan url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/scan/chd_scan.js.js
-
+^https?:\/\/ykt\.chd\.edu\.cn\/server\/consume\/scan url script-response-body https://raw.githubusercontent.com/zhacha222/Quantumult-X/main/chd/chd_scan.js
 [mitm]
 hostname = ykt.chd.edu.cn
 
